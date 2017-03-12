@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Dustin Rue
+  description: Simple install of memcached
+
+  license: MIT
+
+  min_ansible_version: 1.2
+
+  platforms:
+  - name: Ubuntu
+    versions:
+      - xenial
+
+dependencies: 
+  - dustinrue.xenial-bootstrap
